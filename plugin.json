@@ -1,0 +1,41 @@
+{
+  "name": "siyuan-plugin-niop-table",
+  "author": "niop",
+  "url": "",
+  "version": "0.1.0",
+  "minAppVersion": "2.10.5",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin"
+  ],
+  "frontends": [
+    "desktop",
+    "desktop-window",
+    "browser-desktop",
+    "browser-mobile"
+  ],
+  "displayName": {
+    "default": "Table Gen From DateBase",
+    "zh_CN": "数据库表格生成"
+  },
+  "description": {
+    "default": "Table Gen From DateBase",
+    "zh_CN": "使用数据库的内的数据生成表格"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": [
+      ""
+    ]
+  },
+  "keywords": [
+    "table", "gen","表格","数据库"
+  ]
+}
