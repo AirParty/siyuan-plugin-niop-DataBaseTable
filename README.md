@@ -1,28 +1,31 @@
-english version on working
-# 作用
-1. 将数据库中的数据渲染为卡片或者表格
-2. 使用表格导入数据到数据库中
-# 使用方法
-## 渲染数据
-[Render As Card](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/renderAsCard.mp4)
-1. 复制数据库块ID
-2. 在需要渲染的表格处使用"/"菜单或者块标菜单内->插件，选择数据表格
-3. 输入数据库块ID，然后选渲染方,点击渲染
-### 设定
-1. 怎么读取数值？
-使用..(数据名称)
-2. 怎么设置宽度?
-拖拽原始表格的宽度，生成视图的时候会匹配原始表格的宽度
-3. 怎么设置高度？
-在表格的第一列中输入..style(行样式内容),比如..style(height:120px)就是设置高度为120
-4. 怎么设置颜色等？
-..style()内可以输入任何想要的样式。颜色就是 `background-color: #333  ;`  这里的#333就是颜色。
-## 导入数据
-1. 在设置中打开<导入工具>的开关
-2. 使用 '/' 菜单打开<表格数据导入工具>
-3. 输入表格块的ID和数据库块的ID，点击导入
-### 注意！！！
-1. 输入表格的第一列必须是和数据库的主键(也就是默认block)同名，（一定要同名！）不然会按照第一列的名称新建一大堆文档。
-2. 暂时只有匹配了文本 数字 图片/资源 单选(没测试) 的导入
-3. 导入的时候检测到没有的块会在当前文档下自动新建 日期/新数据块名称  然后再导入数据。
-4. 一次导入新的块最好少于设置中`最大列出数量`,可能出bug
+[中文](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/README_zh_CN.md)
+# Purpose
+1. Render data from the database as cards or tables.
+2. Import data into the database using tables.
+
+# Usage
+## Rendering Data
+[Render As Card](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/renderAsCard.webm)
+1. Copy the database block ID.
+2. Use the `/` menu at the table where rendering is needed, or use the block tag menu -> plugin to select the data table.
+3. Enter the database block ID, choose the rendering method, and click render.
+### Settings
+1. How to read values?
+    Use ..(data name).
+2. How to set width?
+    Drag the width of the original table; when generating the view, it will match the width of the original table.
+3. How to set height?
+    Enter ..style(row style content) in the first column of the table, e.g., ..style(height:120px) sets the height to 120.
+4. How to set color of row, etc.?
+    Anything can be entered in ..style(). For example, the color is `background-color: #333;` where #333 is the color.
+
+## Importing Data
+[Import Tool](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/importTool.webm)
+1. Turn on the switch for <Import Tool> in the settings.
+2. Use the `/` menu to open <Table Data Import Tool>.
+3. Enter the table block ID and the database block ID, then click import.
+### Caution!!!
+1. The first column of the input table must have the same name as the primary key of the database (i.e., the default block) (must be the same!), otherwise, it will create a bunch of documents based on the name of the first column.
+2. Currently, only text, numbers, images/resources, and possibly single-choice options are supported for import.
+3. When importing, if a block is not detected, it will automatically create a new one under the current document with the name date/new data block name and then import the data.
+4. It is recommended to import fewer new blocks at a time than the "Maximum Number to List" set in the settings to avoid potential bugs.
