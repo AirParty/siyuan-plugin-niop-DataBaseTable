@@ -26,7 +26,7 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 1. Turn on the switch for <Import Tool> in the settings.
 2. Use the `/` menu to open <Table Data Import Tool>.
 3. Enter the table block ID and the database block ID, then click import.
-### !!! Caution for Importing Data
+### ！！！ Caution for Importing Data
 1. The first column of the input table must have the same name as the primary key of the database (i.e., the default block) (must be the same!), otherwise, it will create a bunch of documents based on the name of the first column.
 2. Currently, only text, numbers, images/resources, and possibly single-choice options are supported for import.
 3. When importing, if a block is not detected, it will automatically create a new one under the current document with the name date/new data block name and then import the data.
