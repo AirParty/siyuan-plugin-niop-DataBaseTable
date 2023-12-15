@@ -5,11 +5,7 @@
 
 # Usage
 ## Rendering Data
-![Render As Card](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/renderAsCard.webm?raw=true)
-
-<video width="640" height="480" controls>
-  <source src="https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/renderAsCard.webm?raw=true" type="video/webm">
-</video>
+[renderAsCard](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/112f9f2b-bb60-48df-bc0c-fa160874a16b)
 
 1. Copy the database block ID.
 2. Use the `/` menu at the table where rendering is needed, or use the block tag menu -> plugin to select the data table.
@@ -26,17 +22,11 @@ Card mode only: Enter ..style(row style content) in the first column of the tabl
 Anything can be entered in ..style(). For example, the color is `background-color: #333;` where #333 is the color.
 
 ## Importing Data
-![Import Tool](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/importTool.webm?raw=true)
-
-<video width="640" height="480" controls>
-  <source src="https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/importTool.webm?raw=true" type="video/webm">
-</video>
-
+[importTool.webm](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/22d25560-0acf-4575-8e2a-831ec7204625)
 1. Turn on the switch for <Import Tool> in the settings.
 2. Use the `/` menu to open <Table Data Import Tool>.
 3. Enter the table block ID and the database block ID, then click import.
-4. 
-### Caution!!!
+## Caution for Importing Data!!!
 1. The first column of the input table must have the same name as the primary key of the database (i.e., the default block) (must be the same!), otherwise, it will create a bunch of documents based on the name of the first column.
 2. Currently, only text, numbers, images/resources, and possibly single-choice options are supported for import.
 3. When importing, if a block is not detected, it will automatically create a new one under the current document with the name date/new data block name and then import the data.
