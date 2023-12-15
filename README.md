@@ -3,6 +3,10 @@
 1. Render data from the database as cards or tables.
 2. Import data into the database using tables.
 
+# Known Bugs
+1. When the database contains more than 100 entries, the exceeding portion is not rendered. A fix will be attempted soon.
+2. Import functionality currently detects only the currently displayed content. It is under repair; please refrain from using the import tool for now.
+3. In the database, errors and interruptions occur in the case of single and multiple selections when there is no content. This issue has been addressed and will be resolved in the upcoming update.
 # Usage
 ## Rendering Data
 [renderAsCard](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/112f9f2b-bb60-48df-bc0c-fa160874a16b)
