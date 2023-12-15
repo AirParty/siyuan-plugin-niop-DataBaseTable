@@ -3,10 +3,8 @@
 1. Render data from the database as cards or tables.
 2. Import data into the database using tables.
 
-# Known Bugs
-1. When the database contains more than 100 entries, the exceeding portion is not rendered. A fix will be attempted soon.
-2. Import functionality currently detects only the currently displayed content. It is under repair; please refrain from using the import tool for now.
-3. In the database, errors and interruptions occur in the case of single and multiple selections when there is no content. This issue has been addressed and will be resolved in the upcoming update.
+# reason of up data
+V0.8.2 fix error of siyuan 2.11 api updata
 # Usage
 ## Rendering Data
 [renderAsCard](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/112f9f2b-bb60-48df-bc0c-fa160874a16b)
@@ -35,3 +33,7 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 2. Currently, only text, numbers, images/resources, and possibly single-choice options are supported for import.
 3. When importing, if a block is not detected, it will automatically create a new one under the current document with the name date/new data block name and then import the data.
 4. It is recommended to import fewer new blocks at a time than the "Maximum Number to List" set in the settings to avoid potential bugs.
+
+## Miscellaneous
+1. "below rendering" requires that the data columns from the original table be placed in the bottom row. Similarly, for "right-side rendering," all data should be placed on the right side.
+2. The rendered table remains editable; however, if you click on "Edit" in the plugin menu, the table will revert to its original form. Therefore, avoid editing the generated table. You can return to a regular table by removing the "nioptable" custom attribute.
