@@ -1,5 +1,5 @@
 {
-  "name": "siyuan-plugin-niop-DateBaseTable",
+  "name": "siyuan-plugin-niop-DataBaseTable",
   "author": "niop",
   "url": "",
   "version": "0.8.0",
@@ -36,6 +36,6 @@
     ]
   },
   "keywords": [
-    "table", "gen","表格","数据库","database","niop"
+    "table", "gen","表格","数据库","database","niop","card"
   ]
 }
