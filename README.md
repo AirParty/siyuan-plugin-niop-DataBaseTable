@@ -4,6 +4,7 @@
 2. Import data into the database using tables.
 
 # reason of up data
+v0.8.3 now truly supports both multiple choice and single choice options, with enhanced detection of special characters in newly created filenames. There have been improvements in the parsing of table contents to avoid situations where parsing might fail. Additionally several bugs.
 V0.8.2 fix error of siyuan 2.11 api updata
 # Usage
 ## Rendering Data
@@ -26,14 +27,17 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 ## Importing Data
 [importTool](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/22d25560-0acf-4575-8e2a-831ec7204625)
 1. Turn on the switch for <Import Tool> in the settings.
-2. Use the `/` menu to open <Table Data Import Tool>.
-3. Enter the table block ID and the database block ID, then click import.
+2. It may be necessary to close and reopen the plugin once.
+3. Use the `/` menu to open <DateBaseImport>.
+4. Enter the table block ID and the database block ID, then click import.
 ### ！！！ Caution for Importing Data
 1. The first column of the input table must have the same name as the primary key of the database (i.e., the default block) (must be the same!), otherwise, it will create a bunch of documents based on the name of the first column.
 2. Currently, only text, numbers, images/resources, and possibly single-choice options are supported for import.
 3. When importing, if a block is not detected, it will automatically create a new one under the current document with the name date/new data block name and then import the data.
 4. It is recommended to import fewer new blocks at a time than the "Maximum Number to List" set in the settings to avoid potential bugs.
-
+5. Special characters within primary keys will be removed during import, as document names do not support most special characters.
+6. When importing multiple choice options, use ',' as the delimiter. For example, importing "Guitar, Bass, Piano" will be recognized as three separate options.
+7. To import single and multiple choice options, they must have been previously set up within the database.
 ## Miscellaneous
 1. "below rendering" requires that the data columns from the original table be placed in the bottom row. Similarly, for "right-side rendering," all data should be placed on the right side.
 2. The rendered table remains editable; however, if you click on "Edit" in the plugin menu, the table will revert to its original form. Therefore, avoid editing the generated table. You can return to a regular table by removing the "nioptable" custom attribute.

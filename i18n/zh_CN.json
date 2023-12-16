@@ -6,7 +6,7 @@
     "pleaseWaitOnRendering":"请等一下，有数据块正在渲染",
     "blockID":"块编号",
     "AVBlockID":"数据库块编号",
-    "DataBaseImportToolDes":"表格数 -> 数据库",
+    "DataBaseImportToolDes":"表格数据 -> 数据库 ",
     "import":"导入",
     "renderCard":"卡片",
     "renderRight":"右侧",
