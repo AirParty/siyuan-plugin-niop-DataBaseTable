@@ -4,6 +4,7 @@
 2. Import data into the database using tables.
 
 # reason of up data
+v0.8.4 `alt + mouse click` has been configured for the DatabaseTable, You can open the settings menu with it.right and below rendering now supports single row and single column.
 v0.8.3 now truly supports both multiple choice and single choice options, with enhanced detection of special characters in newly created filenames. There have been improvements in the parsing of table contents to avoid situations where parsing might fail. Additionally several bugs.
 V0.8.2 fix error of siyuan 2.11 api updata
 # Usage
@@ -13,6 +14,7 @@ V0.8.2 fix error of siyuan 2.11 api updata
 1. Copy the database block ID.
 2. Use the `/` menu at the table where rendering is needed, or use the block tag menu -> plugin to select the data table.
 3. Enter the database block ID, choose the rendering method, and click render.
+4. You can open the settings menu with `alt + mouse click` afterward.
 
 ### Settings
 #### How to read values?
