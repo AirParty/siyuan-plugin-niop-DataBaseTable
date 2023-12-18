@@ -4,9 +4,10 @@
 2. Import data into the database using tables.
 
 # reason of up data
-v0.8.4 `alt + mouse click` has been configured for the DatabaseTable, You can open the settings menu with it.right and below rendering now supports single row and single column.
-v0.8.3 now truly supports both multiple choice and single choice options, with enhanced detection of special characters in newly created filenames. There have been improvements in the parsing of table contents to avoid situations where parsing might fail. Additionally several bugs.
-V0.8.2 fix error of siyuan 2.11 api updata
+- v0.8.5 Do not create new files during import. Import the content in the original table order. Import now supports dates in the format yyyy-mm-dd. You can input two dates separated by a comma, representing the start and end times, respectively. 
+- v0.8.4 `alt + mouse click` has been configured for the DatabaseTable, You can open the settings menu with it.right and below rendering now supports single row and single column.
+- v0.8.3 now truly supports both multiple choice and single choice options, with enhanced detection of special characters in newly created filenames. There have been improvements in the parsing of table contents to avoid situations where parsing might fail. Additionally several bugs.
+- V0.8.2 fix error of siyuan 2.11 api updata
 # Usage
 ## Rendering Data
 [renderAsCard](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/112f9f2b-bb60-48df-bc0c-fa160874a16b)
@@ -43,3 +44,4 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 ## Miscellaneous
 1. "below rendering" requires that the data columns from the original table be placed in the bottom row. Similarly, for "right-side rendering," all data should be placed on the right side.
 2. The rendered table remains editable; however, if you click on "Edit" in the plugin menu, the table will revert to its original form. Therefore, avoid editing the generated table. You can return to a regular table by removing the "nioptable" custom attribute.
+3. When importing data, you can significantly increase the calculation speed by closing the page where the database is located while the backend is performing calculations.
