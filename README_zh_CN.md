@@ -44,3 +44,5 @@
 1. 向下渲染要求原始表格中的数据栏都放在最下一行，同理右侧渲染要求全部都放在右边。
 2. 表格渲染的结果依然是表格可以编辑，但是假如你点了插件菜单中的编辑，那么表格会变回去原始表格。所以不要用生成的表格编辑，你可以删除自定义属性中的“nioptable”就变回普通表格了。
 3. 导入数据时,当后台在计算的时候,可以关闭数据库所在页面,能大幅度提高计算速度.
+## Function demonstration
+- 切换页面后重新加载 ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
