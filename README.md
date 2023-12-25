@@ -48,3 +48,5 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 1. "below rendering" requires that the data columns from the original table be placed in the bottom row. Similarly, for "right-side rendering," all data should be placed on the right side.
 2. The rendered table remains editable; however, if you click on "Edit" in the plugin menu, the table will revert to its original form. Therefore, avoid editing the generated table. You can return to a regular table by removing the "nioptable" custom attribute.
 3. When importing data, you can significantly increase the calculation speed by closing the page where the database is located while the backend is performing calculations.
+## Function demonstration
+![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
