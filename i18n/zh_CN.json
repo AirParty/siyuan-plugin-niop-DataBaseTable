@@ -22,5 +22,7 @@
     "close":"关闭",
     "open":"打开",
     "useImportToll":"使用导入工具 (很危险,看好说明再动手)",
-    "niopimportTool":"表格数据导入工具"
+    "niopimportTool":"表格数据导入工具",
+    "AutoReloadOn":"自动刷新",
+    "reLoadOnTabSelect":"切换窗口"
 }

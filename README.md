@@ -4,6 +4,9 @@
 2. Import data into the database using tables.
 
 # reason of up data
+- v0.8.6 Added an option for auto-refresh. Currently, there's only the 'Switch Window' option available. Clicking it turns it green and makes it usable. When auto-refresh is checked, if there are changes in the database, the information will be re-read and the table regenerated upon page change or refresh.
+    - This can achieve an effect similar to a to-do list.
+    - Bug: Modifications to date-type values and the deletion of data rows do not trigger a re-render.
 - v0.8.5 Do not create new files during import. Import the content in the original table order. Import now supports dates in the format yyyy-mm-dd. You can input two dates separated by a comma, representing the start and end times, respectively. 
 - v0.8.4 `alt + mouse click` has been configured for the DatabaseTable, You can open the settings menu with it.right and below rendering now supports single row and single column.
 - v0.8.3 now truly supports both multiple choice and single choice options, with enhanced detection of special characters in newly created filenames. There have been improvements in the parsing of table contents to avoid situations where parsing might fail. Additionally several bugs.
@@ -34,7 +37,7 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 3. Use the `/` menu to open <DateBaseImport>.
 4. Enter the table block ID and the database block ID, then click import.
 ### ！！！ Caution for Importing Data
-1. The first column of the input table must have the same name as the primary key of the database (i.e., the default block) (must be the same!), otherwise, it will create a bunch of documents based on the name of the first column.
+1. The first column of the input table must have the same name as the primary key of the database (i.e., the default block) (must be the same!), otherwise, it will create a bunch of data based on the name of the first column.
 2. Currently, only text, numbers, images/resources, and possibly single-choice options are supported for import.
 3. When importing, if a block is not detected, it will automatically create a new one under the current document with the name date/new data block name and then import the data.
 4. It is recommended to import fewer new blocks at a time than the "Maximum Number to List" set in the settings to avoid potential bugs.
