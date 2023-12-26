@@ -7,6 +7,7 @@
 - v0.8.6 Added an option for auto-refresh. Currently, there's only the 'Switch Window' option available. Clicking it turns it green and makes it usable. When auto-refresh is checked, if there are changes in the database, the information will be re-read and the table regenerated upon page change or refresh.
     - This can achieve an effect similar to a to-do list.
     - Bug: Modifications to date-type values and the deletion of data rows do not trigger a re-render.
+    - 0.8.6.1 Temporarily fixed an issue where only one table refreshes when there are multiple data tables on a page.
 - v0.8.5 Do not create new files during import. Import the content in the original table order. Import now supports dates in the format yyyy-mm-dd. You can input two dates separated by a comma, representing the start and end times, respectively. 
 - v0.8.4 `alt + mouse click` has been configured for the DatabaseTable, You can open the settings menu with it.right and below rendering now supports single row and single column.
 - v0.8.3 now truly supports both multiple choice and single choice options, with enhanced detection of special characters in newly created filenames. There have been improvements in the parsing of table contents to avoid situations where parsing might fail. Additionally several bugs.
