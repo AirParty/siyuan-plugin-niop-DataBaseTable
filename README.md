@@ -56,5 +56,10 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 2. The rendered table remains editable; however, if you click on "Edit" in the plugin menu, the table will revert to its original form. Therefore, avoid editing the generated table. You can return to a regular table by removing the "nioptable" custom attribute.
 3. When importing data, you can significantly increase the calculation speed by closing the page where the database is located while the backend is performing calculations.
 ## Function demonstration
-- reloadAfterSwitchTab ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
-- EditableCards ![EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
+- reloadAfterSwitchTab 
+    - ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
+- EditableCards 
+    - ![EditableCardsPreview](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/editableCard.jpg)
+    - ![EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
+- tdstyle测试 
+    - ![tdstyle](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/tdstyleTest.jpg)

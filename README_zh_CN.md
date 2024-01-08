@@ -52,6 +52,10 @@
 2. 表格渲染的结果依然是表格可以编辑，但是假如你点了插件菜单中的编辑，那么表格会变回去原始表格。所以不要用生成的表格编辑，你可以删除自定义属性中的“nioptable”就变回普通表格了。
 3. 导入数据时,当后台在计算的时候,可以关闭数据库所在页面,能大幅度提高计算速度.
 ## 功能演示
-- 切换页面后重新加载 ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
-- 可编辑卡片 ![EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
-
+- 切换页面后重新加载 
+    - ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
+- 可编辑卡片 
+    - ![EditableCardsPreview](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/editableCard.jpg)
+    - ![EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
+- tdstyle测试 
+    - ![tdstyle](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/tdstyleTest.jpg)
