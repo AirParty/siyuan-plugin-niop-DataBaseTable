@@ -8,6 +8,7 @@
     - Method to select an image inside the card: Click and drag the mouse over the image, then quickly release the mouse to cancel the drag. At this point, using the delete or backspace key can remove the image.
     - Multiple images and multiple selections are not supported due to the lack of a good interaction method.
     - Instructions for use, see the editable cards in <Function Demonstration>.
+    - v0.9.0.1 EditableCards also trigger auto-refresh;
 - v0.8.7 You can now specify the style of each cell in the cards using `..tdstyle()`, which works similarly to ..style and can be used in any cell.
 - v0.8.6 Added an option for auto-refresh. Currently, there's only the 'Switch Window' option available. Clicking it turns it green and makes it usable. When auto-refresh is checked, if there are changes in the database, the information will be re-read and the table regenerated upon page change or refresh.
     - This can achieve an effect similar to a to-do list.
