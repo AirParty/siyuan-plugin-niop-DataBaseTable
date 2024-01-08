@@ -55,7 +55,7 @@
 - 切换页面后重新加载 
     - ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
 - 可编辑卡片 
-    - ![EditableCardsPreview](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/editableCard.jpg)
+    - ![EditableCardsPreview](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/222488c3-86c7-46bf-865e-58ebc008b23d)
     - ![EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
 - tdstyle测试 
-    - ![tdstyle](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/tdstyleTest.jpg)
+    - ![tdstyle](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/0063e6fe-5349-4b6d-ae43-ef8b145dbda3)
