@@ -55,3 +55,4 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 3. When importing data, you can significantly increase the calculation speed by closing the page where the database is located while the backend is performing calculations.
 ## Function demonstration
 - reloadAfterSwitchTab ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
+- EditableCards [EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
