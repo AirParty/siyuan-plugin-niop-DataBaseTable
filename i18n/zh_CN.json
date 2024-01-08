@@ -13,7 +13,8 @@
     "renderBelow":"下侧",
     "AVViewName":"数据库中的子视图的名字(为空时默认读取当前视图)",
     "AVID":"数据库编号",
-    "RenderMethodAs":"当前显示模式:",
+    "RenderMethodAs":"渲染模式:",
+    "DisPlayAs":"当前显示为",
     "currentDisPlayMethod_Editor":"编辑器",
     "currentDisPlayMethod_DateBase":"数据库",
     "ReloadAll":"渲染",
@@ -24,5 +25,7 @@
     "useImportToll":"使用导入工具 (很危险,看好说明再动手)",
     "niopimportTool":"表格数据导入工具",
     "AutoReloadOn":"自动刷新",
-    "reLoadOnTabSelect":"切换窗口"
+    "tableSetting":"设置",
+    "reLoadOnTabSelect":"切换窗口时刷新",
+    "editableCard":"可编辑卡片"
 }

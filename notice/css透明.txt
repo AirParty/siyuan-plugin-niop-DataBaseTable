@@ -1,0 +1,106 @@
+作用:配合插件 <替换背景图片> 可以实现除文本内容以外部分都显示背景
+使用方法:将-------下面的所有内容复制后放到 设置->外观->代码片段->点击加号添加css ->打开开关 ->确定
+-----------------------------------------------------------------------------------
+/* 背景透明*/
+.layout {
+    
+    background-color: hsl(74deg 94% 93%  /0%);
+}
+
+.fn__flex-1.protyle .protyle-content:not(#searchPreview.fn__flex-1.protyle>.protyle-content,.block__popover,.block__edit.fn__flex-1.protyle>.protyle-content,.backlinkList .protyle-content,.backlinkMList .protyle-content, #cardPreview>.protyle-content) {
+    background-color: #fdfdfd00 !important;
+}
+
+/* 打开的文档的背景   */
+.protyle:not(#searchPreview.fn__flex-1.protyle,.block__popover,.block__edit.fn__flex-1.protyle,.backlinkList .protyle,.backlinkMList .protyle) {
+    background-color: hsl(97deg 34% 91%  /0%) !important;
+}
+
+/* 文档树背景透明*/
+.layout-tab-container {
+    background-color: hsl(69deg 51% 95%   /0%) !important;
+}
+
+
+/* 文档树透明*/
+.sy__file ul.b3-list.b3-list--background {
+    background-color: #ffffff00 !important;
+}
+
+/* 文档标题栏不透明*/
+.protyle-title__input {
+    border-radius: 5px;
+    background: var(--b3-menu-background) !important;
+}
+
+/*嵌入块背景颜色 */
+.protyle-wysiwyg [data-node-id].render-node[data-type=NodeBlockQueryEmbed]{
+    background-color: var(--b3-theme-surface) !important; 
+}
+
+/*数据库表格的 格子背景 */
+.av__container {
+     background-color: var(--b3-menu-background);
+}
+/*dialog的背景模糊取消  */
+.b3-dialog__scrim {
+    background-color: rgb(220 220 220 / 0%);
+}
+
+/* 普通块背景色及大小*/
+.protyle-wysiwyg [data-node-id][data-type=NodeParagraph]:not(:empty) {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 3px;
+}
+
+.protyle-wysiwyg [data-node-id][data-type=NodeParagraph]:not(:empty) > div[contenteditable="true"]:not(:empty) {
+    width: fit-content;
+    background-color: var(--b3-theme-surface);
+    border-radius: 9px;
+    padding-right: 11px;
+    padding-left: 7px;
+    padding-top: 1px;
+display: inline-block;
+}
+.protyle-wysiwyg [data-node-id][data-type=NodeParagraph]:not(:empty) > div[contenteditable="true"]:empty {
+    min-width: 100%;
+    min-height:25px;
+}
+
+/* #标题 背景色及大小*/
+.protyle-wysiwyg [data-node-id][data-type=NodeHeading]:not(:empty) > div[contenteditable="true"]:not(:empty) {
+    display: inline-block;
+    background-color: var(--b3-theme-background);
+    width: fit-content;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* 文档树中文件名称的背景和内容块大小*/
+.b3-list-item__text {
+    background-color: var(--b3-theme-surface); 
+    max-width: max-content;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* 列表的 排序号 背景色*/
+.protyle-wysiwyg [data-node-id].li > .protyle-action:after {
+    margin: -11.5px 0 0 -11.5px;
+    background-color: var(--b3-theme-surface); 
+    padding: 4px;
+}
+.protyle-wysiwyg [data-node-id].protyle-task--done.li > .protyle-action:after {
+    background-color: var(--b3-theme-primary-lighter); 
+}
+/* 列表任务 在完成后颜色不变淡 */
+.protyle-wysiwyg [data-node-id].li.protyle-task--done > [data-node-id].p [contenteditable][spellcheck] {
+ 	text-decoration: none !important;
+    opacity: 1 !important; 
+}

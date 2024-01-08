@@ -4,6 +4,10 @@
 2. Import data into the database using tables.
 
 # reason of up data
+- v0.9.0 `EditableCards` After opening the option, you can edit the content of the cards and write back to the database.
+    - Method to select an image inside the card: Click and drag the mouse over the image, then quickly release the mouse to cancel the drag. At this point, using the delete or backspace key can remove the image.
+    - Multiple images and multiple selections are not supported due to the lack of a good interaction method.
+- v0.8.7 You can now specify the style of each cell in the cards using `..tdstyle()`, which works similarly to ..style and can be used in any cell.
 - v0.8.6 Added an option for auto-refresh. Currently, there's only the 'Switch Window' option available. Clicking it turns it green and makes it usable. When auto-refresh is checked, if there are changes in the database, the information will be re-read and the table regenerated upon page change or refresh.
     - This can achieve an effect similar to a to-do list.
     - Bug: Modifications to date-type values and the deletion of data rows do not trigger a re-render.
@@ -27,7 +31,7 @@ Use ..(data name).
 #### How to set width?
 Drag the width of the original table; when generating the view, it will match the width of the original table.
 #### How to set height?
-Card mode only: Enter ..style(row style content) in the first column of the table, e.g., ..style(height:120px) sets the height to 120.
+Card mode only: Enter `..style`(row style content) in the first column of the table, e.g., ..style(height:120px) sets the height to 120.
 #### How to set color of row, etc.?
 Anything can be entered in ..style(). For example, the color is `background-color: #333;` where #333 is the color.
 

@@ -14,6 +14,7 @@
     "AVViewName":"View Name in DateBase",
     "AVID":"DataBase ID",
     "RenderMethodAs":"Render as",
+    "DisPlayAs":"Display As",
     "currentDisPlayMethod_Editor":"Editor",
     "currentDisPlayMethod_DateBase":"DataBase",
     "ReloadAll":"Render",
@@ -24,5 +25,7 @@
     "useImportToll":"use import Tool (Danger, please read the instructions carefully before use.)",
     "niopimportTool":"DateBaseImport",
     "AutoReloadOn":"Auto Reload On",
-    "reLoadOnTabSelect":"switch Tab"
+    "tableSetting":"Setting",
+    "reLoadOnTabSelect":"reLoad on switch tab",
+    "editableCard":"Editable Card"
 }
