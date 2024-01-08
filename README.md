@@ -2,7 +2,7 @@
 # Purpose
 1. Render data from the database as cards or tables.
 2. Import data into the database using tables.
-
+3. you can edit database in card.
 # reason of up data
 - v0.9.0 `EditableCards` After opening the option, you can edit the content of the cards and write back to the database.
     - Method to select an image inside the card: Click and drag the mouse over the image, then quickly release the mouse to cancel the drag. At this point, using the delete or backspace key can remove the image.
