@@ -7,6 +7,7 @@
 - v0.9.0 `EditableCards` After opening the option, you can edit the content of the cards and write back to the database.
     - Method to select an image inside the card: Click and drag the mouse over the image, then quickly release the mouse to cancel the drag. At this point, using the delete or backspace key can remove the image.
     - Multiple images and multiple selections are not supported due to the lack of a good interaction method.
+    - Instructions for use, see the editable cards in <Function Demonstration>.
 - v0.8.7 You can now specify the style of each cell in the cards using `..tdstyle()`, which works similarly to ..style and can be used in any cell.
 - v0.8.6 Added an option for auto-refresh. Currently, there's only the 'Switch Window' option available. Clicking it turns it green and makes it usable. When auto-refresh is checked, if there are changes in the database, the information will be re-read and the table regenerated upon page change or refresh.
     - This can achieve an effect similar to a to-do list.
@@ -55,4 +56,4 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 3. When importing data, you can significantly increase the calculation speed by closing the page where the database is located while the backend is performing calculations.
 ## Function demonstration
 - reloadAfterSwitchTab ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
-- EditableCards [EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
+- EditableCards ![EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
