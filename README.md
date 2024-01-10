@@ -4,6 +4,12 @@
 2. Import data into the database using tables.
 3. you can edit database in card.
 # reason of up data
+- v0.9.2 Added settings: `Show Empty Data`, `Show Add Button`, `sync tables`, `..reload()`
+    - Show Add Button: Adds a button that, when clicked, inserts a new record at the top of the database. The data table then reloads the data.
+    - Show Empty Data 
+    - sync tables: If multiple tables on the same page use the same data source and have 'Sync Tables' enabled, then refreshing one will refresh the others.
+    - ..reload(): Cell setting, allows for the database to reload when data in this cell is modified.
+    - Fixed some bugs
 - v0.9.0 `EditableCards` After opening the option, you can edit the content of the cards and write back to the database.
     - Method to select an image inside the card: Click and drag the mouse over the image, then quickly release the mouse to cancel the drag. At this point, using the delete or backspace key can remove the image.
     - Multiple images and multiple selections are not supported due to the lack of a good interaction method.
@@ -59,6 +65,7 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 - reloadAfterSwitchTab 
     - ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
 - EditableCards 
+    - ![Sync&Add](notice/Sync Add.webm)
     - ![editableCardPreview](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/222488c3-86c7-46bf-865e-58ebc008b23d)
     - ![EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
 - tdstyleTest 

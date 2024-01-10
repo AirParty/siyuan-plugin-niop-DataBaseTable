@@ -27,5 +27,8 @@
     "AutoReloadOn":"Auto Reload On",
     "tableSetting":"Setting",
     "reLoadOnTabSelect":"reLoad on switch tab",
-    "editableCard":"Editable Card"
+    "editableCard":"Editable Card",
+    "ShowAddButton":"Show Add Button",
+    "ShowEmptyData":"Show Empty Data",
+    "syncTables":"sync tables"
 }

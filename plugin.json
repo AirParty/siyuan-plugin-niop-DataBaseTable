@@ -2,7 +2,7 @@
   "name": "siyuan-plugin-niop-DataBaseTable",
   "author": "niop",
   "url": "https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable",
-  "version": "0.9.0.1",
+  "version": "0.9.2",
   "minAppVersion": "2.11.2",
   "backends": [
     "windows",
@@ -21,7 +21,7 @@
   },
   "description": {
     "default": "Card(Table) Gen From DateBase",
-    "zh_CN": "使用数据库的内的数据生成表格 或者 卡片"
+    "zh_CN": "使用数据库的数据生成卡片或者表格"
   },
   "readme": {
     "default": "README.md",

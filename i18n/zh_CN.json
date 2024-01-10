@@ -27,5 +27,8 @@
     "AutoReloadOn":"自动刷新",
     "tableSetting":"设置",
     "reLoadOnTabSelect":"切换窗口时刷新",
-    "editableCard":"可编辑卡片"
+    "editableCard":"可编辑卡片",
+    "ShowAddButton":"显示添加按钮",
+    "ShowEmptyData":"显示空数据行",
+    "syncTables":"同步表格"
 }

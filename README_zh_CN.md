@@ -3,11 +3,18 @@
 2. 使用表格导入数据到数据库中
 3. 卡片视图可编辑数据库中数据
 # 更新原因
+- v0.9.2 添加设置 `显示空数据行` `新建按钮` `同步表格` `..reload()`
+    - 新建按钮:会添加一个按钮,点击之后会在数据库顶部写入一条新的数据.数据表格会重新加载数据.
+    - 显示空数据行
+    - 同步表格:同一个页面的复数表格假如使用同一个数据源,且都设置了同步表格,那么当一个触发刷新的时候,其他表格会一起刷新
+    - ..reload():单元格设置, 可以设定此单元格中数据修改的时候重新加载数据库
+    - 修复一些bug
+    - 一个bug:新建按钮
 - v0.9.0 `可编辑卡片` 打开选项后,可以编辑卡片内容,并会写回数据库中.
     - 选中卡片内图片的方法:在图片上按住鼠标拖动,并快速松开鼠标以取消拖动.此时使用del或者退格按键可以删除图片.
     - 不支持多图片和多选.因为没想到好的交互方式.
     - 说用说明,查看<功能演示>的可编辑卡片
-    -v0.9.0.1 可编辑表格自带换页刷新
+    - v0.9.0.1 可编辑表格自带换页刷新
 - v0.8.7 可以指定卡片中每一个格子的样式了 使用`..tdstyle()`,具体使用方式和..style类似,可以使用在任何格子.
 - v0.8.6 添加一个选项,自动刷新,现在只有`切换窗口`的选项,点击显示绿色就能用.当自动刷新勾选时,,假如数据库的数据有变动,再页面更换或者刷新的时候会重新读取数据库信息生成表格.
     - 可以实现 类似`todo`的效果.
@@ -55,7 +62,9 @@
 - 切换页面后重新加载 
     - ![reloadAfterSwitchTab](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/c9897082-ed8e-41cd-8e2f-0a2df8bb6d74)
 - 可编辑卡片 
+    - ![Sync&Add](notice/Sync Add.webm)
     - ![EditableCardsPreview](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/222488c3-86c7-46bf-865e-58ebc008b23d)
     - ![EditableCards](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ef590759-ca43-4d0d-854e-c2ba175dad87)
 - tdstyle测试 
     - ![tdstyle](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/0063e6fe-5349-4b6d-ae43-ef8b145dbda3)
+
