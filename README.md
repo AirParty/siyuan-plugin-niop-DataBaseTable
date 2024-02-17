@@ -16,6 +16,7 @@
   * ..reload(): Cell setting, allows for the database to reload when data in this cell is modified.
   * Fixed some bugs
   * v0.9.2.1 Fix bug on importing image when the link contains () or other special characters.
+  * v0.9.2.2 fixes the issue where the `number` import failed due to API changes.
 * v0.9.0 `EditableCards` After opening the option, you can edit the content of the cards and write back to the database.
 
   * Method to select an image inside the card: Click and drag the mouse over the image, then quickly release the mouse to cancel the drag. At this point, using the delete or backspace key can remove the image.
