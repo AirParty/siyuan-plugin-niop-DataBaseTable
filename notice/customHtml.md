@@ -6,9 +6,16 @@ Text cells in the database are currently((v3.0.13)) unable to edit HTML-tagged c
 
 # 示例 sample
 
-示例还在测试,稍后发布.
-
-sample is still testing,will release later.
+[sample 1.sy.zip](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/files/15259162/sy.zip)
+1. 下载这个压缩包
+2. 在siyuan中导入.
+3. 复制新数据库的块ID.
+4. alt+左键点击卡片,在插件菜单输入数据库块ID.点击渲染.
+   
+1. Download this compressed file.
+2. Import it into Siyuan.
+3. Copy the block ID of the new database.
+4. Alt + left-click on the card, input the database block ID in the plugin menu, and click render.
 
 # 教程 tutorial
 
