@@ -8,6 +8,8 @@
 
 # reason of updata
 
+* v0.9.6 A new "Custom" generation method has been added; for a tutorial, simply click this link.
+* v0.9.5 now `..style(height:120px)`The grid cells with set heights will no longer expand, and internal content will be provided with a scroll axis. 
 * v0.9.2 Added settings: `Show Empty Data`, `Show Add Button`, `sync tables`, `..reload()`
 
   * Show Add Button: Adds a button that, when clicked, inserts a new record at the top of the database. The data table then reloads the data.
@@ -85,6 +87,7 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 1. "below rendering" requires that the data columns from the original table be placed in the bottom row. Similarly, for "right-side rendering," all data should be placed on the right side.
 2. The rendered table remains editable; however, if you click on "Edit" in the plugin menu, the table will revert to its original form. Therefore, avoid editing the generated table. You can return to a regular table by removing the "nioptable" custom attribute.
 3. When importing data, you can significantly increase the calculation speed by closing the page where the database is located while the backend is performing calculations.
+4. if you have enabled Editable Card,you need to enable `Allow execution of scripts within HTML blocks` in settings of siyuan.
 
 ## Function demonstration
 
