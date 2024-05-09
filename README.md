@@ -102,3 +102,9 @@ Anything can be entered in ..style(). For example, the color is `background-colo
 * tdstyleTest
 
   * ![tdstyleTest](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/0063e6fe-5349-4b6d-ae43-ef8b145dbda3)
+ 
+* custom mode
+
+ * ![html&css](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/3c2ecfcc-e482-4f29-a1ac-ddafc18f0cde)
+ * ![qiannianzhilv](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/a6cdc37e-697e-4605-b9f6-cdecfba01e67)
+
