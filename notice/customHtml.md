@@ -55,4 +55,5 @@ click save
 # 其他示例 ohters sample
 
 [CustomTest2.sy.zip](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/files/15270944/CustomTest2.sy.zip)
+
 [custom2.webm](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ed01c5f3-59ae-435a-8c05-32085ef93348)
