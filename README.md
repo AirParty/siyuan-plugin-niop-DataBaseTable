@@ -7,6 +7,7 @@
 3. you can edit database in card.
 
 # reason of updata
+[custom2.webm](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/ed01c5f3-59ae-435a-8c05-32085ef93348)
 
 * v0.9.6 A new "Custom" generation method has been added; for a tutorial, simply click this [link](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/customHtml.md).
 * v0.9.5 now `..style(height:120px)`The grid cells with set heights will no longer expand, and internal content will be provided with a scroll axis. 
