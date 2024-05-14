@@ -8,7 +8,8 @@
 Text cells in the database are currently((v3.0.13)) unable to edit HTML-tagged content properly. This issue has been addressed by the official team, and it will be usable once version 3.0.14 is released.
 
 # 示例 sample
-[sample 1.sy.zip](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/files/15259162/sy.zip)
+[sample_1.v1.1.zip](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/files/15309690/sample_1.v1.1.zip)
+
 1. 下载这个压缩包
 2. 在siyuan中导入.
 3. 复制新数据库的块ID.
