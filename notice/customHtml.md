@@ -2,10 +2,8 @@
 
 [custom1.webm](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/assets/7642279/db53ae2a-46b8-4943-a20a-592e25d0449b)
 
-
-数据库的文本单元格现在(v3.0.13)还不能正常编辑html标签内容.官方已修复,v3.0.14发布后就可以用了.
-
-Text cells in the database are currently((v3.0.13)) unable to edit HTML-tagged content properly. This issue has been addressed by the official team, and it will be usable once version 3.0.14 is released.
+在2024.5.14之前下载过示例的,请重新下载,因为siyuan最新的更新修复了文本单元格可以输入html标签的bug.
+if you download sample before 2024.5.14,please redownload for one issue of escape .
 
 # 示例 sample
 [sample_1.v1.1.zip](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/files/15309690/sample_1.v1.1.zip)
