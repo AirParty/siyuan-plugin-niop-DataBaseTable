@@ -7,6 +7,8 @@
 # 更新原因
 
 * v0.9.6 添加了新的生成方式"自定义",教程请点击这个[链接](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/customHtml.md)查看.
+
+  * V0.9.6.1 修复`SiYuan v3.1.0`版本API变动导致导入工具失效的情况
 * v0.9.5 使用 `..style(height:120px)`设置高度的单元格将严格按照单元格高度显示.溢出内容将被隐藏.鼠标在该单元格上时可以使用滚轮查看溢出内容.
 * v0.9.2 添加设置 `显示空数据行` `新建按钮` `同步表格` `..reload()`
 

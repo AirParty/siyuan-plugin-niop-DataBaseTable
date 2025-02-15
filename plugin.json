@@ -2,8 +2,8 @@
   "name": "siyuan-plugin-niop-DataBaseTable",
   "author": "niop",
   "url": "https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable",
-  "version": "0.9.6.0",
-  "minAppVersion": "2.12.8",
+  "version": "0.9.6.1",
+  "minAppVersion": "3.1.0",
   "backends": [
     "windows",
     "linux",
