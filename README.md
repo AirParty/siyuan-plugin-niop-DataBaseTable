@@ -10,7 +10,7 @@
 
 * v0.9.6 A new "Custom" generation method has been added; for a tutorial, simply click this [link](https://github.com/AirParty/siyuan-plugin-niop-DataBaseTable/blob/main/notice/customHtml.md).
 
-  * V0.9.6.1 fixes the issue where the import tool became ineffective due to API changes in the `SiYuan v3.1.0` version.
+  * V0.9.6.2 fixes the issue where the import tool became ineffective due to API changes in the `SiYuan v3.1.0` version.
 * v0.9.5 now `..style(height:120px)`The grid cells with set heights will no longer expand, and internal content will be provided with a scroll axis. 
 * v0.9.2 Added settings: `Show Empty Data`, `Show Add Button`, `sync tables`, `..reload()`
 
